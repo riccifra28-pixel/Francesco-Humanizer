@@ -49,3 +49,51 @@ The rewrite should:
 ### Validation Note
 
 This test was manually evaluated by applying the rules defined in `SKILL.md`. The output represents a manual validation of the Humanizer's expected behavior and is not yet an automated execution by an AI agent.
+
+---
+
+# Test 2 — Voice Matching
+
+## Objective
+
+Test whether Francesco-Humanizer can rewrite AI-generated text while preserving the author's specific writing style, rather than simply making the text sound more natural.
+
+## Voice Sample
+
+The following sample is taken from an article written by the author about football player Maghnes Akliouche.
+
+> Il Francese, che ha anche già esordito in nazionale Maggiore, ricopre il ruolo di ala destra, anche se può svariare su tutto il fronte d'attacco, ed è un calciatore dotato di grande uno contro uno, che gli permette di creare spesso superiorità numerica nella trequarti avversaria. A questo abbina anche una spiccata visione di gioco e un discreto rapporto con il gol, in quanto in carriera ha già siglato 18 reti in 104 presenze.
+>
+> Nonostante abbia solo 24 anni, ha dimostrato più volte di essere dotato di una forte personalità e di avere ampli margini di miglioramento.
+>
+> Sicuramente un acquisto così, in casa Juventus, sarebbe chiave, poiché permetterebbe a Spalletti di avere due ali molto pericolose come Yildiz e Akliouche, che fanno del dribbling il loro asso nella manica. Allo stesso tempo, però, la spesa sarebbe importante e questo potrebbe portare alla partenza di qualche giocatore.
+
+## AI-generated text
+
+> Il marketing sportivo sta attraversando una fase di profonda evoluzione, caratterizzata dalla crescente centralità dei dati, dalla personalizzazione delle esperienze e dalla necessità per i brand di costruire relazioni sempre più autentiche con il proprio pubblico. In questo contesto, le organizzazioni sportive devono sviluppare strategie innovative e integrate, capaci di aumentare il coinvolgimento dei tifosi e generare valore per tutti gli stakeholder.
+
+## Expected behavior
+
+The rewrite should:
+
+- preserve the author's direct and opinion-driven style
+- use concrete and sport-specific language where appropriate
+- avoid generic corporate terminology
+- maintain a natural sentence rhythm
+- preserve the original meaning
+- avoid artificially reproducing mistakes from the voice sample
+- sound like the same person could have written the text
+
+## Humanizer output
+
+> Nel marketing sportivo, i dati stanno assumendo un ruolo sempre più importante, così come la possibilità di personalizzare le esperienze e creare un rapporto più autentico con il pubblico. Per i brand e le organizzazioni sportive questo significa trovare strategie che permettano di coinvolgere maggiormente i tifosi e, allo stesso tempo, generare valore per tutte le parti coinvolte.
+
+## Evaluation
+
+### Criteria
+
+- Voice similarity
+- Naturalness
+- Clarity
+- Preservation of meaning
+- Reduction of generic AI patterns
