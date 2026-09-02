@@ -107,57 +107,81 @@ The goal is not to avoid specific words or grammatical structures. The goal is t
 
 ## 3. Analyze the author's voice
 
-When real examples of the author's writing are available, analyze them before rewriting.
+Before rewriting, determine whether authentic writing samples are available.
 
-The current reference voice profile is based on authentic sports journalism writing by the author.
+The skill package contains real writing samples in the `references/` directory:
+
+- `references/francesco-voice-sample-sports.md`
+- `references/francesco-voice-sample-personal.md`
+
+When these files are available, read and analyze them before rewriting.
+
+The purpose of these samples is not to copy their wording or content. They are evidence of how the author naturally writes.
 
 ### Francesco Voice Profile
 
+The current profile is a general summary of patterns observed in the author's real writing.
+
+It should be treated as a supporting reference, not as a substitute for the actual writing samples.
+
 #### Overall style
 
-- Direct and journalistic
-- Personal but not overly informal
+- Direct and spontaneous
+- Personal without being excessively informal
 - Clear and opinion-driven
-- Focused on concrete facts before interpretation
-- Professional without sounding corporate
-- Comfortable with longer sentences when developing an argument
+- Concrete rather than abstract
+- Professional when the context requires it, without sounding corporate
+- Comfortable with longer sentences when they help develop an idea
+- Natural rather than overly polished
 
-#### Structure
+The author's writing should not be forced into a single fixed style.
 
-The author tends to:
-
-1. Start directly from the main news or idea.
-2. Add relevant context and background.
-3. Introduce specific facts, numbers or examples.
-4. Explain characteristics or implications.
-5. End with a personal evaluation or practical consequence.
-
-Avoid unnecessary introductory paragraphs or generic conclusions.
+His tone changes depending on the context while maintaining recognizable characteristics.
 
 #### Sentence rhythm
 
 The author's writing naturally combines:
 
-- Short factual statements
-- Medium-length explanatory sentences
-- Longer sentences when connecting multiple ideas
+- short statements for emphasis or factual information
+- medium-length explanatory sentences
+- longer sentences that connect multiple ideas
 
-Do not force every sentence to have the same length.
+Do not systematically shorten sentences to make the writing appear more human.
 
-Do not artificially shorten the author's sentences simply because shorter sentences are sometimes perceived as more "human".
+Do not make every sentence the same length.
+
+Natural variation is more important than a fixed sentence formula.
+
+#### Structure and development of ideas
+
+In sports and analytical writing, the author often develops ideas through a progression such as:
+
+1. Main fact or idea
+2. Relevant context
+3. Specific characteristics, examples or numbers
+4. Personal interpretation
+5. Practical consequence or evaluation
+
+In personal writing, the author often uses a different structure:
+
+1. Person or relationship
+2. Specific reason for appreciation
+3. Concrete memory, habit or shared experience
+4. Personal or emotional conclusion
+
+When adapting the author's voice to a new context, preserve the underlying way of developing ideas rather than copying the structure mechanically.
 
 #### Vocabulary
 
 Prefer:
 
-- Concrete language
-- Sport-specific terminology when relevant
-- Natural football and sports expressions
-- Verbs that describe actions and situations directly
+- concrete language
+- direct verbs
+- natural expressions
+- terminology appropriate to the subject
+- domain-specific language when it would naturally be used by the author
 
-Avoid replacing natural sports terminology with generic business language.
-
-For example, preserve concepts such as:
+In sports contexts, preserve natural football and sports terminology when appropriate, including expressions such as:
 
 - creare superiorità numerica
 - saltare l'uomo
@@ -166,11 +190,13 @@ For example, preserve concepts such as:
 - uno contro uno
 - margini di miglioramento
 
-when they are appropriate to the context.
+Do not force these expressions into unrelated contexts.
+
+Do not replace natural language with generic business terminology simply because the target text is professional.
 
 #### Connectors
 
-The author naturally uses connectors to develop an argument, including:
+The author naturally uses connectors such as:
 
 - in quanto
 - anche se
@@ -179,76 +205,173 @@ The author naturally uses connectors to develop an argument, including:
 - però
 - inoltre
 
-Do not remove these automatically.
+These should not be removed simply because they are common connectors.
 
-However, avoid excessive repetition of the same connector within a short passage.
+However, avoid repeatedly using the same connector within a short passage.
+
+Use connectors when they reflect the natural relationship between ideas.
 
 #### Personal evaluation
 
-The author's writing often moves from facts to an explicit assessment.
+The author's writing often moves from description or facts to a clear personal assessment.
 
 When appropriate, preserve this characteristic.
 
-Examples of the author's style include evaluations such as:
+Examples found in the author's writing include expressions such as:
 
 - "sarebbe chiave"
 - "molto pericolose"
 - "spesa importante"
 
-Do not replace personal evaluations with neutral corporate language unless the requested context requires it.
+These examples illustrate a tendency toward direct evaluation rather than neutral corporate language.
 
-#### Authenticity rule
+Do not repeatedly reuse these exact expressions in new texts.
 
-Do not "correct" the author's voice into generic professional writing.
+Learn the underlying pattern: the author is comfortable expressing a clear opinion when the context calls for it.
 
-The objective is not to make the author sound like a journalist, consultant, recruiter or AI model.
+#### Personal and emotional writing
 
-The objective is to make AI-generated writing sound like the author.
+When the context is personal, the author's voice often expresses affection through concrete details rather than exaggerated or poetic language.
 
-Preserve distinctive stylistic characteristics even when they are less polished than conventional corporate writing.
+The author naturally combines:
 
-Improve grammar or clarity only when necessary for comprehension or when explicitly requested.
+- sincere appreciation
+- specific memories
+- informal expressions
+- personal references
+- understated humor
+- affectionate teasing
 
-#### Voice Matching Priority
+Do not make personal writing excessively sentimental, literary or formal.
 
-When a writing sample is provided, treat it as the primary reference for the author's voice.
+The emotional quality should come from the authenticity of the details and relationships.
 
-Analyze the sample before rewriting the target text.
+#### Humor and irony
 
-Pay attention to:
+The author sometimes uses irony or humor immediately after a sincere or serious statement.
 
-- how sentences typically begin
-- average sentence length and variation
-- preferred connectors
-- use of commas and punctuation
-- balance between facts and personal evaluations
-- level of formality
-- recurring vocabulary and expressions
-- use of technical or domain-specific terminology
-- how the author introduces context
-- how the author moves from facts to interpretation
-- how strongly the author expresses opinions
+This can take the form of:
 
-Do not copy individual sentences or distinctive phrases from the writing sample.
+- a personal joke
+- affectionate teasing
+- an unexpected detail
+- a self-confident or deliberately understated closing
 
-Instead, reproduce the underlying stylistic patterns.
+Preserve this characteristic when the context naturally allows it.
 
-If the writing sample and the target context differ, preserve the author's style while adapting vocabulary and terminology to the new subject.
+Do not add jokes or humor simply to make a text appear more human.
 
-Do not make the output more polished, sophisticated or corporate than the writing sample.
+Do not copy jokes or references from the writing samples into unrelated texts.
 
-The closer the output should feel to the author, the more important it is to preserve the author's natural sentence rhythm, connective habits and way of expressing evaluations.
+#### Punctuation and syntax
 
-#### Voice Matching Hierarchy
+Analyze the author's natural use of:
 
-When making stylistic decisions, prioritize:
+- commas
+- sentence length
+- conjunctions
+- paragraph length
+- sentence openings
+- transitions between ideas
 
-1. The author's demonstrated writing sample
-2. The author's established voice profile
-3. The context of the target text
-4. General principles of natural writing
+Do not impose artificially short sentences or perfectly symmetrical structures.
 
-Never allow generic ideas of "good professional writing" to override evidence from the author's actual writing.
+Do not "correct" every stylistic characteristic that differs from conventional corporate writing.
+
+Grammar and clarity should be improved when necessary, but the author's natural rhythm should remain recognizable.
+
+### Writing Sample Analysis
+
+When authentic writing samples are available, analyze them before rewriting the target text.
+
+Look for recurring patterns in:
+
+- sentence length and variation
+- sentence openings
+- punctuation
+- connectors
+- vocabulary
+- formality
+- paragraph structure
+- balance between facts and evaluations
+- use of concrete examples
+- expression of opinions
+- emotional language
+- humor and irony
+- movement from facts to interpretation
+- ways of opening and closing paragraphs
+
+Do not copy individual sentences, distinctive phrases, names, stories, jokes or facts from the samples.
+
+Extract the underlying stylistic patterns and reproduce them in new language appropriate to the target text.
+
+### Contextual Voice Matching
+
+The writing samples represent different contexts.
+
+The sports sample demonstrates the author's analytical and journalistic voice.
+
+The personal sample demonstrates how the author's voice changes in emotional and informal contexts.
+
+Use both samples to identify stable characteristics while allowing the tone to adapt to the target context.
+
+For example:
+
+- Sports analysis → more factual, analytical and domain-specific
+- Job application → professional, direct and personal
+- LinkedIn → conversational, professional and opinion-driven
+- Personal message → warmer, more spontaneous and potentially ironic
+- Academic or project writing → clear, structured and professional without unnecessary corporate language
+
+Do not make every output sound like a sports article.
+
+Do not make every output sound like a personal message.
+
+The goal is to reproduce the author's underlying voice within the appropriate context.
+
+### Runtime Writing Samples
+
+If the user provides an authentic writing sample directly in the conversation, analyze it before rewriting.
+
+A writing sample explicitly provided by the user has higher priority than the samples stored in `references/`.
+
+Use the most relevant available sample for the target context.
+
+If multiple samples are available, compare them and identify characteristics that remain consistent across contexts.
+
+### Voice Matching Priority
+
+When making stylistic decisions, use this hierarchy:
+
+1. Authentic writing sample explicitly provided by the user
+2. Authentic writing samples stored in `references/`
+3. Established Francesco Voice Profile
+4. Target context and communication purpose
+5. General principles of natural writing
+
+Generic ideas of "good professional writing" must never override evidence from the author's actual writing.
+
+### Authenticity Rule
+
+Do not make the author sound more polished, sophisticated, corporate or literary than he naturally does.
+
+Do not deliberately introduce mistakes, slang or awkward phrasing.
+
+The goal is not to imitate imperfections.
+
+The goal is to preserve the author's natural choices while producing clear and effective writing.
+
+The closer the output should feel to the author, the more important it is to preserve:
+
+- natural sentence rhythm
+- preferred connective habits
+- directness
+- concrete language
+- personal evaluations
+- context-appropriate informality
+- natural humor and irony when appropriate
+
+## Never allow generic ideas of "good professional writing" to override evidence from the author's actual writing.
 ---
 
 ## 4. Rewrite
