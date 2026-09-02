@@ -4,6 +4,7 @@
 
 Francesco-Humanizer is an experimental Agent Skill designed to rewrite AI-generated text while preserving the author's own voice, personality and intent.
 
+It is designed to be used by AI agents that support skill-based instructions and can be adapted to different writing contexts and individual authors.
 The project was created to explore a simple question:
 
 **Can AI help us communicate faster without making everyone sound the same?**
@@ -54,6 +55,21 @@ The skill can be particularly useful for:
 - Sports marketing communication
 - Presentations and project proposals
 
+## Testing
+
+The skill has been manually evaluated across seven test cases covering:
+
+- AI-pattern reduction
+- Voice matching
+- Factual accuracy
+- Minimal intervention
+- Corporate language and personal voice
+- Sports marketing communication
+- Integrated rewriting
+
+The current manual evaluation averages **9.3/10**.
+
+See [TEST.md](TEST.md) for the full test cases, outputs and evaluations.
 ## Why I built it
 
 AI is becoming an increasingly powerful tool for research, analysis and content creation.
@@ -78,3 +94,16 @@ Context-aware rewrite
 Final AI-pattern check
        ↓
 Human-sounding output
+
+## Project status
+
+**Current version: v1.0**
+
+Francesco-Humanizer is currently an experimental personal project focused on voice-preserving AI rewriting.
+
+The current version prioritizes:
+- reliable AI-pattern detection
+- author-specific voice matching
+- preservation of meaning and facts
+- context-aware rewriting
+- minimal intervention when appropriate
