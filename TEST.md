@@ -160,6 +160,44 @@ Il nuovo stadio può rappresentare un'opportunità importante per il club, sopra
 
 This test confirms that the Humanizer can improve the naturalness of a text without filling factual gaps with invented information. In particular, the absence of a precise investment figure is explicitly preserved rather than replaced with an assumed number. The output also avoids introducing names, dates, statistics or additional claims that were not present in the original text.
 
+---
+
+# Test 4 — Minimal Intervention
+
+## Objective
+
+Test whether Francesco-Humanizer can recognize when a text is already natural and avoid unnecessary rewriting.
+
+## AI-generated text
+
+> Ieri ho seguito la partita e, sinceramente, penso che il problema principale sia stato il centrocampo. La squadra ha avuto difficoltà a costruire gioco e spesso ha perso palla in situazioni abbastanza semplici. Nel secondo tempo qualcosa è migliorato, ma non è bastato per cambiare la partita.
+
+## Expected behavior
+
+The rewrite should:
+
+- recognize that the original text is already relatively natural
+- make only minimal changes where necessary
+- preserve the conversational and opinion-driven tone
+- avoid replacing simple words with more sophisticated alternatives
+- avoid adding corporate or formal language
+- avoid unnecessary connectors or restructuring
+- preserve the original meaning
+- avoid changing the author's personality
+
+## Humanizer output
+
+> Ieri ho seguito la partita e, sinceramente, penso che il problema principale sia stato il centrocampo. La squadra ha avuto difficoltà a costruire gioco e spesso ha perso palla in situazioni abbastanza semplici. Nel secondo tempo qualcosa è migliorato, ma non è bastato per cambiare la partita.
+
+## Evaluation
+
+### Criteria
+
+- Minimal intervention
+- Naturalness
+- Voice preservation
+- Preservation of meaning
+- Absence of unnecessary changes
 ### Criteria
 
 - Factual accuracy
