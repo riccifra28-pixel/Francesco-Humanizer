@@ -97,3 +97,19 @@ The rewrite should:
 - Clarity
 - Preservation of meaning
 - Reduction of generic AI patterns
+
+### Evaluation Results
+
+| Criterion | Score | Notes |
+|---|---:|---|
+| Voice similarity | 7/10 | The tone is more direct and natural, but it does not fully reproduce the author's more journalistic and opinion-driven style. |
+| Naturalness | 9/10 | The text reads smoothly and avoids overly constructed AI phrasing. |
+| Clarity | 9/10 | The main ideas are presented clearly and without unnecessary complexity. |
+| Preservation of meaning | 10/10 | The original meaning is preserved without introducing unsupported information. |
+| Reduction of generic AI patterns | 9/10 | Generic corporate language and predictable structures have been significantly reduced. |
+
+**Overall score: 8.8/10**
+
+### Validation Note
+
+The test shows that the Humanizer can move the text toward the author's writing style while preserving its meaning. However, the voice match is not yet perfect, particularly because the output lacks some of the author's characteristic journalistic rhythm, concrete terminology and personal evaluation.
