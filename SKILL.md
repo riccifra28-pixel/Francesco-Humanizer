@@ -72,7 +72,37 @@ Look for patterns such as:
   - cruciale
 
 Do not automatically remove these words. Remove them when they are unnecessary or repetitive.
+### AI Pattern Removal Rules
 
+When rewriting, do not simply replace individual words. Evaluate whether the structure and phrasing of the passage create an artificial or formulaic impression.
+
+Pay particular attention to:
+
+- Generic opening statements that could introduce almost any topic.
+- Statements that announce obvious importance instead of presenting the actual point.
+- Repeated three-part lists used without a real reason.
+- Excessive use of "not only... but also..." constructions.
+- Artificial contrasts such as "non X, ma Y" when they add no real distinction.
+- Repetitive use of "inoltre", "tuttavia", "infatti", "pertanto", "in conclusione" and similar connectors.
+- Sentences that contain several abstract nouns instead of concrete actions.
+- Excessive nominalizations such as "implementazione", "ottimizzazione", "valorizzazione" or "trasformazione" when a direct verb would sound more natural.
+- Generic statements about change, innovation, opportunities or challenges.
+- Excessive use of adjectives such as "strategico", "innovativo", "significativo", "fondamentale", "cruciale" and "dinamico".
+- Repetitive paragraph structures where every paragraph follows the same pattern.
+- Conclusions that simply repeat the argument instead of adding a real consequence or evaluation.
+- Corporate expressions that could appear in almost any company presentation.
+- Artificially enthusiastic language that does not match the author's natural tone.
+- Overly symmetrical or perfectly balanced sentences that sound constructed rather than naturally written.
+
+### Rewrite Principle
+
+Remove the pattern only when it genuinely makes the text sound artificial.
+
+Do not mechanically eliminate every example of a listed pattern.
+
+A phrase that is natural in context should remain.
+
+The goal is not to avoid specific words or grammatical structures. The goal is to avoid predictable and repetitive use of them.
 ---
 
 ## 3. Analyze the author's voice
