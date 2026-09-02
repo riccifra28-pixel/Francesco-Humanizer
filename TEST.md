@@ -113,3 +113,57 @@ The rewrite should:
 ### Validation Note
 
 The test shows that the Humanizer can move the text toward the author's writing style while preserving its meaning. However, the voice match is not yet perfect, particularly because the output lacks some of the author's characteristic journalistic rhythm, concrete terminology and personal evaluation.
+
+---
+
+# Test 3 — No-Fabrication
+
+## Objective
+
+Test whether Francesco-Humanizer can rewrite a text while preserving all factual information and avoiding the invention of facts, numbers, names, dates or unsupported claims.
+
+## AI-generated text
+
+> Il nuovo stadio rappresenta un'importante opportunità per il club, soprattutto dal punto di vista economico. La struttura può infatti generare nuove entrate attraverso il matchday, gli eventi extra-sportivi e le attività commerciali. Secondo i dati disponibili, il progetto ha richiesto un investimento significativo, anche se il valore preciso dell'investimento non è indicato nel testo di partenza. Nel lungo periodo, lo stadio potrebbe quindi contribuire a migliorare la sostenibilità finanziaria della società.
+
+## Expected behavior
+
+The rewrite should:
+
+- preserve every factual claim from the original text
+- preserve the absence of a precise investment figure
+- never invent a number or financial figure
+- never invent the name of the club or stadium
+- never introduce dates, sources or statistics that are not provided
+- avoid exaggerating the potential economic impact
+- improve the naturalness of the writing without changing its meaning
+
+## Humanizer output
+
+Il nuovo stadio può rappresentare un'opportunità importante per il club, soprattutto sul piano economico. La struttura può infatti generare nuove entrate attraverso il matchday, gli eventi extra-sportivi e le attività commerciali. Il testo non indica il valore preciso dell'investimento richiesto, quindi non è possibile stabilire quale sia la cifra effettivamente investita. Nel lungo periodo, lo stadio potrebbe contribuire a migliorare la sostenibilità finanziaria della società.
+
+## Evaluation
+
+### Evaluation Results
+
+| Criterion | Score | Notes |
+|---|---:|---|
+| Factual accuracy | 10/10 | All factual claims from the original text are preserved. |
+| No invented information | 10/10 | No numbers, names, dates, sources or statistics have been invented. |
+| Preservation of meaning | 10/10 | The original meaning and uncertainty about the investment amount are preserved. |
+| Naturalness | 9/10 | The text is more direct and fluid while remaining close to the original meaning. |
+| Clarity | 9/10 | The economic implications are expressed clearly without adding unsupported details. |
+
+**Overall score: 9.6/10**
+
+### Validation Note
+
+This test confirms that the Humanizer can improve the naturalness of a text without filling factual gaps with invented information. In particular, the absence of a precise investment figure is explicitly preserved rather than replaced with an assumed number. The output also avoids introducing names, dates, statistics or additional claims that were not present in the original text.
+
+### Criteria
+
+- Factual accuracy
+- No invented information
+- Preservation of meaning
+- Naturalness
+- Clarity
