@@ -209,6 +209,46 @@ Preserve distinctive stylistic characteristics even when they are less polished 
 
 Improve grammar or clarity only when necessary for comprehension or when explicitly requested.
 
+#### Voice Matching Priority
+
+When a writing sample is provided, treat it as the primary reference for the author's voice.
+
+Analyze the sample before rewriting the target text.
+
+Pay attention to:
+
+- how sentences typically begin
+- average sentence length and variation
+- preferred connectors
+- use of commas and punctuation
+- balance between facts and personal evaluations
+- level of formality
+- recurring vocabulary and expressions
+- use of technical or domain-specific terminology
+- how the author introduces context
+- how the author moves from facts to interpretation
+- how strongly the author expresses opinions
+
+Do not copy individual sentences or distinctive phrases from the writing sample.
+
+Instead, reproduce the underlying stylistic patterns.
+
+If the writing sample and the target context differ, preserve the author's style while adapting vocabulary and terminology to the new subject.
+
+Do not make the output more polished, sophisticated or corporate than the writing sample.
+
+The closer the output should feel to the author, the more important it is to preserve the author's natural sentence rhythm, connective habits and way of expressing evaluations.
+
+#### Voice Matching Hierarchy
+
+When making stylistic decisions, prioritize:
+
+1. The author's demonstrated writing sample
+2. The author's established voice profile
+3. The context of the target text
+4. General principles of natural writing
+
+Never allow generic ideas of "good professional writing" to override evidence from the author's actual writing.
 ---
 
 ## 4. Rewrite
