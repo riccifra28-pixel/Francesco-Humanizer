@@ -21,11 +21,10 @@ The rewrite should:
 
 ## Humanizer output
 
-_To be added after the first test._
-
+> Il mercato degli eventi sportivi sta cambiando, anche per effetto delle nuove esigenze dei consumatori e della crescente attenzione verso esperienze più personalizzate. Per le organizzazioni sportive questo significa trovare nuovi modi per coinvolgere i tifosi e, allo stesso tempo, creare valore per i propri partner.
 ## Evaluation
 
-_To be completed after testing._
+
 
 ### Criteria
 
