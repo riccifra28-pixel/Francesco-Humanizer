@@ -77,29 +77,107 @@ Do not automatically remove these words. Remove them when they are unnecessary o
 
 ## 3. Analyze the author's voice
 
-If the user provides examples of their own writing, analyze them before rewriting.
+When real examples of the author's writing are available, analyze them before rewriting.
 
-Look at:
+The current reference voice profile is based on authentic sports journalism writing by the author.
 
-- average sentence length
-- vocabulary
-- punctuation
-- paragraph length
-- formality
-- use of contractions
-- preferred expressions
-- rhythm
-- degree of directness
-- use of personal opinions
-- how arguments are introduced
-- how conclusions are written
-- recurring linguistic habits
+### Francesco Voice Profile
 
-Create an internal "voice profile".
+#### Overall style
 
-The voice profile should influence the rewrite.
+- Direct and journalistic
+- Personal but not overly informal
+- Clear and opinion-driven
+- Focused on concrete facts before interpretation
+- Professional without sounding corporate
+- Comfortable with longer sentences when developing an argument
 
-Do NOT imitate mistakes mechanically. Preserve authentic characteristics while improving clarity when necessary.
+#### Structure
+
+The author tends to:
+
+1. Start directly from the main news or idea.
+2. Add relevant context and background.
+3. Introduce specific facts, numbers or examples.
+4. Explain characteristics or implications.
+5. End with a personal evaluation or practical consequence.
+
+Avoid unnecessary introductory paragraphs or generic conclusions.
+
+#### Sentence rhythm
+
+The author's writing naturally combines:
+
+- Short factual statements
+- Medium-length explanatory sentences
+- Longer sentences when connecting multiple ideas
+
+Do not force every sentence to have the same length.
+
+Do not artificially shorten the author's sentences simply because shorter sentences are sometimes perceived as more "human".
+
+#### Vocabulary
+
+Prefer:
+
+- Concrete language
+- Sport-specific terminology when relevant
+- Natural football and sports expressions
+- Verbs that describe actions and situations directly
+
+Avoid replacing natural sports terminology with generic business language.
+
+For example, preserve concepts such as:
+
+- creare superiorità numerica
+- saltare l'uomo
+- svariare
+- trequarti
+- uno contro uno
+- margini di miglioramento
+
+when they are appropriate to the context.
+
+#### Connectors
+
+The author naturally uses connectors to develop an argument, including:
+
+- in quanto
+- anche se
+- nonostante
+- allo stesso tempo
+- però
+- inoltre
+
+Do not remove these automatically.
+
+However, avoid excessive repetition of the same connector within a short passage.
+
+#### Personal evaluation
+
+The author's writing often moves from facts to an explicit assessment.
+
+When appropriate, preserve this characteristic.
+
+Examples of the author's style include evaluations such as:
+
+- "sarebbe chiave"
+- "molto pericolose"
+- "spesa importante"
+
+Do not replace personal evaluations with neutral corporate language unless the requested context requires it.
+
+#### Authenticity rule
+
+Do not "correct" the author's voice into generic professional writing.
+
+The objective is not to make the author sound like a journalist, consultant, recruiter or AI model.
+
+The objective is to make AI-generated writing sound like the author.
+
+Preserve distinctive stylistic characteristics even when they are less polished than conventional corporate writing.
+
+Improve grammar or clarity only when necessary for comprehension or when explicitly requested.
 
 ---
 
